@@ -203,3 +203,5 @@ params:
 
 taxonomies:
   series: series
+  categories: categories
+  tags: tags
