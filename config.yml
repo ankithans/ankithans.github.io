@@ -1,4 +1,4 @@
-baseURL: "https://ankithans.github.io/"
+baseURL: "https://ankithans.github.io/blog"
 title: Ankit Hans
 paginate: 5
 theme: hugo-PaperMod
