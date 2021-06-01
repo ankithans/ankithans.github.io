@@ -1,1 +1,19 @@
-{{ template "_internal/disqus.html" . }}
+<!-- {{ template "_internal/disqus.html" . }} -->
+<script id="myscript" src="https://utteranc.es/client.js" repo="ankithans/blog" issue-term="pathname" theme="boxy-light"
+    crossorigin="anonymous" async>
+
+
+
+    </script>
+
+<script>
+
+    var th = localStorage.getItem("pref-theme")
+    if (th === 'dark') {
+        th = "github-dark"
+    } else {
+        th = "github-light"
+    }
+
+    document.getElementById("myscript").setAttribute("theme", th)
+</script>
