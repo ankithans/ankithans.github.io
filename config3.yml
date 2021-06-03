@@ -1,7 +1,7 @@
 baseURL: "https://ankithans.github.io/blog"
 title: Ankit Hans
 paginate: 5
-theme: hugo-PaperMod
+theme: hello-friend-ng
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -44,6 +44,7 @@ params:
   description: "Ankit Hans's Blog"
   author: Me
   # author: ["Me", "You"] # multiple authors
+  homeSubtitle: "A simple and beautiful blog"
 
   defaultTheme: auto
   # disableThemeToggle: true
