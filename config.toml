@@ -1,4 +1,4 @@
-baseURL = "https://ankithans.github.io/blog"
+baseURL = "https://ankithans.github.io/"
 title   = "Ankit Hans"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -110,6 +110,7 @@ disableHugoGeneratorInject = false
     rss = true
     copyright = false
     author = true
+    bottomText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>"]
 
     topText = []
    
@@ -145,10 +146,10 @@ disableHugoGeneratorInject = false
 
   # Uncomment this if you want a portrait on your start page
   #
-  #[params.portrait]
-  #  path     = "/img/image.jpg"
-  #  alt      = "Portrait"
-  #  maxWidth = "50px"
+  [params.portrait]
+    path     = "/ankit.jpg"
+    alt      = "Portrait"
+    maxWidth = "150px"
 
   # Social icons
   [[params.social]]
