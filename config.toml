@@ -147,7 +147,7 @@ disableHugoGeneratorInject = false
   # Uncomment this if you want a portrait on your start page
   #
   [params.portrait]
-    path     = "/ankit1.png"
+    path     = "/ankit.jpg"
     alt      = "Portrait"
     maxWidth = "150px"
 
@@ -202,7 +202,7 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "resume"
     name       = "Resume"
-    url        = "https://github.com/ankithans"
+    url        = "https://drive.google.com/file/d/12FTl57hCLAJHo3Z2QCLz75J-GjZU6cRR/view?usp=sharing"
   [[menu.main]]
     identifier = "projects"
     name       = "Projects"
