@@ -146,10 +146,10 @@ disableHugoGeneratorInject = false
 
   # Uncomment this if you want a portrait on your start page
   #
-  [params.portrait]
-    path     = "/ankit.jpg"
-    alt      = "Portrait"
-    maxWidth = "150px"
+  # [params.portrait]
+  #   path     = "/ankit.jpg"
+  #   alt      = "Portrait"
+  #   maxWidth = "150px"
 
   # Social icons
   [[params.social]]
