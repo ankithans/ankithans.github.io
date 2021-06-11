@@ -1,270 +1,59 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Ankit Hans</title><link>https://ankithans.github.io/posts/</link><description>Recent content in Posts on Ankit Hans</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ankithans.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Syntax Guide</title><link>https://ankithans.github.io/posts/2019/03/markdown-syntax-guide/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://ankithans.github.io/posts/2019/03/markdown-syntax-guide/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description><content type="html"><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
-<h2 id="headings">Headings</h2>
-<p>The following HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
-<h1 id="h1">H1</h1>
-<h2 id="h2">H2</h2>
-<h3 id="h3">H3</h3>
-<h4 id="h4">H4</h4>
-<h5 id="h5">H5</h5>
-<h6 id="h6">H6</h6>
-<h2 id="paragraph">Paragraph</h2>
-<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>
-<p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
-<h2 id="blockquotes">Blockquotes</h2>
-<p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>
-<h4 id="blockquote-without-attribution">Blockquote without attribution</h4>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Ankit Hans</title><link>https://ankithans.github.io/posts/</link><description>Recent content in Posts on Ankit Hans</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ankithans.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>GSoC'21 journey begins</title><link>https://ankithans.github.io/posts/2021/06/gsoc21-journey-begins/</link><pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate><guid>https://ankithans.github.io/posts/2021/06/gsoc21-journey-begins/</guid><description>Get started with open-source I myself started with opensource in end of the year 2020. Explored a lot of organizations, according to my interest and tech-stack. And I got a list of 20+ orgs, so I took my time, may be a week and gone through the projects of all of them. Then finally I found LibreHealth and JBoss.
+I started my opensource journey with LibreHealth. The project was Cost of Care Application which aims to to provide patient friendly costs of care, to help patients get better cost estimates for medical procedures of Hospitals.</description><content type="html"><![CDATA[<h2 id="get-started-with-open-source">Get started with open-source</h2>
+<p><img src="https://cdn.discordapp.com/attachments/852928325197234256/852932535117545482/unknown.png" alt="github-timline"></p>
+<p>I myself started with <strong>opensource</strong> in end of the year 2020. Explored a lot of organizations, according to my interest and tech-stack. And I got a list of 20+ orgs, so I took my time, may be a week and gone through the projects of all of them. Then finally I found <a href="https://librehealth.io/">LibreHealth</a> and <a href="https://www.jboss.org/">JBoss</a>.</p>
+<p>I started my opensource journey with <a href="https://librehealth.io/">LibreHealth</a>. The project was <a href="https://gitlab.com/librehealth/toolkit/cost-of-care/lh-toolkit-cost-of-care-app">Cost of Care Application</a> which aims to to provide patient friendly costs of care, to help patients get better cost estimates for medical procedures of Hospitals.</p>
+<p>I knew <a href="https://flutter.dev/">flutter</a> before hand and so I did solve some issues and improvements. As I became active member in the <a href="https://forums.librehealth.io/">LibreHealth community</a> the admins gave me <code>new user of the month</code> badge, after some days they promoted my trust level on their forums and this really encouraged me to contribute more to open-source! The maintainers were quick in reviewing my merge requests and this filled me with confidence and persuaded me to apply for GSoC this year.</p>
+<h2 id="how-the-journey-started-with-jboss">How the Journey started with JBoss</h2>
+<p><img src="https://cdn.discordapp.com/attachments/852928325197234256/852945224166801428/Group_1_2.png" alt="gsoc-with-jboss"></p>
+<p>After a great kickstart in the journey of opensource, I found a project <a href="https://github.com/aerogear/graphql-link">graphql-link</a> in <strong>Aerogear(JBoss)</strong>. I knew that it was a Golang project overall(PS: I didn&rsquo;t knew how to print hello world in golang), but there were some beginner friendly issues in the repository, like website for documentation(<a href="https://docusaurus.io/">docusaurus</a>), example servers etc.</p>
+<p>I started resolving some good-first issues and got in touch with my mentor <a href="https://github.com/wtrocki">Wojciech Trocki</a>. He persuaded me to learn golang and contribute more. I am so glad to have a mentor like him. He helps in every way possible, like giving hints, code reviews, appreciations, guidance etc.</p>
 <blockquote>
-<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
+<p><strong>After my proposal got selected in JBoss, I got this from my mentor at LibreHealth</strong> and I was in seventh heaven 🤩🤩</p>
 </blockquote>
-<h4 id="blockquote-with-attribution">Blockquote with attribution</h4>
+<p><img src="https://cdn.discordapp.com/attachments/852928325197234256/852928676826710066/unknown.png" alt="librehealth-chat"></p>
+<h2 id="open-source-projects">Open Source Projects</h2>
+<p>There are typically two types of projects in open-source.</p>
+<ol>
+<li>The Project is already there on internet. You need to develop, propose and fix on the top of that.</li>
+<li>The idea is validated on paper, but still it&rsquo;s not on internet.</li>
+</ol>
+<p>My project comes in second category, I have to start everything from the ground level, deciding the architecture, code structure and documentation. In my opinion, this is a little harder to do than the projects in first category. 
+You may think, you can decide the code structure and other things without any restrictions. But if you are not experienced enough then you might fail in doing this.</p>
 <blockquote>
-<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.</p>
-<p>— <!-- raw HTML omitted -->Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><!-- raw HTML omitted --></p>
+<p>The best way to decide design/architecture is -</p>
+<ul>
+<li>get the thorough idea of the project, then try to think by yourself</li>
+<li>show it to your mentor for validation</li>
+<li>improve it from the feedbacks provided and repeat this cycle until you and your mentor is satisfied by the design.</li>
+</ul>
 </blockquote>
-<h2 id="tables">Tables</h2>
-<p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Age</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bob</td>
-<td>27</td>
-</tr>
-<tr>
-<td>Alice</td>
-<td>23</td>
-</tr>
-</tbody>
-</table>
-<h4 id="inline-markdown-within-tables">Inline Markdown within tables</h4>
-<table>
-<thead>
-<tr>
-<th>Italics</th>
-<th>Bold</th>
-<th>Code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><em>italics</em></td>
-<td><strong>bold</strong></td>
-<td><code>code</code></td>
-</tr>
-</tbody>
-</table>
-<h2 id="code-blocks">Code Blocks</h2>
-<h4 id="code-block-with-backticks">Code block with backticks</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
-&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
-    &lt;<span style="color:#f92672">head</span>&gt;
-        &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span> /&gt;
-        &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
-    &lt;/<span style="color:#f92672">head</span>&gt;
-    &lt;<span style="color:#f92672">body</span>&gt;
-        &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
-    &lt;/<span style="color:#f92672">body</span>&gt;
-&lt;/<span style="color:#f92672">html</span>&gt;
-</code></pre></div><h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
-<pre><code>&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;p&gt;Test&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-<h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!doctype html&gt;</span>
-&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
-&lt;<span style="color:#f92672">head</span>&gt;
-  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>&gt;
-  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
-&lt;/<span style="color:#f92672">head</span>&gt;
-&lt;<span style="color:#f92672">body</span>&gt;
-  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
-&lt;/<span style="color:#f92672">body</span>&gt;
-&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
-<h4 id="gist">Gist</h4>
-<script type="application/javascript" src="https://gist.github.com/spf13/7896402.js"></script>
-
-<h2 id="list-types">List Types</h2>
-<h4 id="ordered-list">Ordered List</h4>
-<ol>
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
-</ol>
-<h4 id="unordered-list">Unordered List</h4>
+<h2 id="about-my-project">About my Project</h2>
+<p><img src="https://cdn.discordapp.com/attachments/852928325197234256/852951299501850634/unknown.png" alt="charmil"></p>
+<p>The project on which I will be working throughout this summer is <strong><a href="https://github.com/aerogear/charmil/">Charmil</a></strong>. A Golang based Framework on the top of <a href="https://cobra.dev/">cobra</a> which will help the developers to create CLI&rsquo;s as Plugins and later they can be installed/imported into any CLI. This can be achieved with a package manager similar to npm, apt, pip etc.</p>
+<p>The user will import charmil in their CLI, which will provide them all the extensions out of the box. The user will be able to install specific plugins with the install command. After installing the extension, users will be able to use the features of that plugin without writing code for that particular feature which that plugin provides.</p>
+<p>So it&rsquo;s a SDK + CLI kind of stuff.</p>
+<p>I cannot imagine working on something big like this own my own. That&rsquo;s where <a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a> gave me the platform and my mentors who are always there to support me.</p>
+<h2 id="how-is-it-going">How is it going?</h2>
+<p>I would say learning wise it&rsquo;s going truly awesome, I learn new stuffs daily while working. <strong>Most important skill I got is plan before code.</strong> This really helps in using the time effectively. Whenever I am stuck, I like to write that up in notion or github(depends), and it always leads me from nowhere to somewhere.</p>
+<h3 id="week-1-report">Week 1 report</h3>
 <ul>
-<li>List item</li>
-<li>Another item</li>
-<li>And another item</li>
+<li>Misunderstood some requirements of POC and explored how external CLI&rsquo;s with binary can be used as plugins <a href="https://github.com/aerogear/charmil/pull/37">#37</a></li>
+<li>Implemented correct wrapper approach according to the requirements <a href="https://github.com/aerogear/charmil/pull/45">#45</a></li>
+<li>Compared how wrapper and 2nd(plugin&rsquo;s use cobra) approaches are different, what do we loose/gain in wrapper approach <a href="https://github.com/aerogear/charmil/discussions/43#discussioncomment-851017">link</a></li>
 </ul>
-<h4 id="nested-list">Nested list</h4>
+<h3 id="next-week">Next Week</h3>
 <ul>
-<li>Fruit
+<li>Get the architecture of the final approach ready and move to 2nd phase</li>
+<li>Decide specific initial features and start implementing and documenting</li>
+</ul>
+<h3 id="blockers">Blockers</h3>
 <ul>
-<li>Apple</li>
-<li>Orange</li>
-<li>Banana</li>
+<li>What validation do we do when we implement other than wrapper approach?</li>
+<li>Once the POC is ready then it should be easy to move with features</li>
 </ul>
-</li>
-<li>Dairy
-<ul>
-<li>Milk</li>
-<li>Cheese</li>
-</ul>
-</li>
-</ul>
-<h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</h2>
-<p><!-- raw HTML omitted -->GIF<!-- raw HTML omitted --> is a bitmap image format.</p>
-<p>H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O</p>
-<p>X<!-- raw HTML omitted -->n<!-- raw HTML omitted --> + Y<!-- raw HTML omitted -->n<!-- raw HTML omitted --> = Z<!-- raw HTML omitted -->n<!-- raw HTML omitted --></p>
-<p>Press <!-- raw HTML omitted --><!-- raw HTML omitted -->CTRL<!-- raw HTML omitted -->+<!-- raw HTML omitted -->ALT<!-- raw HTML omitted -->+<!-- raw HTML omitted -->Delete<!-- raw HTML omitted --><!-- raw HTML omitted --> to end the session.</p>
-<p>Most <!-- raw HTML omitted -->salamanders<!-- raw HTML omitted --> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
-<section class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1" role="doc-endnote">
-<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</section>]]></content></item><item><title>Rich Content</title><link>https://ankithans.github.io/posts/2019/03/rich-content/</link><pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate><guid>https://ankithans.github.io/posts/2019/03/rich-content/</guid><description>&lt;p>Hugo ships with several &lt;a href="https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes">Built-in Shortcodes&lt;/a> for rich content, along with a &lt;a href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config&lt;/a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p></description><content type="html"><![CDATA[<p>Hugo ships with several <a href="https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes">Built-in Shortcodes</a> for rich content, along with a <a href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config</a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</p>
-<hr>
-<h2 id="youtube-privacy-enhanced-shortcode">YouTube Privacy Enhanced Shortcode</h2>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/ZJthWmvUzzc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-<!-- raw HTML omitted -->
-<hr>
-<h2 id="twitter-simple-shortcode">Twitter Simple Shortcode</h2>
-
-
-
-
-<style type="text/css">
-  .twitter-tweet {
-  font: 14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-left: 4px solid #2b7bb9;
-  padding-left: 1.5em;
-  color: #555;
-}
-  .twitter-tweet a {
-  color: #2b7bb9;
-  text-decoration: none;
-}
-  blockquote.twitter-tweet a:hover,
-  blockquote.twitter-tweet a:focus {
-  text-decoration: underline;
-}
-</style>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">“In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”<br>— Jan Tschichold <a href="https://t.co/gcv7SrhvJb">pic.twitter.com/gcv7SrhvJb</a></p>&mdash; Graphic Design History (@DesignReviewed) <a href="https://twitter.com/DesignReviewed/status/1085870671291310081?ref_src=twsrc%5Etfw">January 17, 2019</a></blockquote>
-
-<!-- raw HTML omitted -->
-<hr>
-<h2 id="vimeo-simple-shortcode">Vimeo Simple Shortcode</h2>
-
-
-
-
-
-
-<style>
-.__h_video {
-   position: relative;
-   padding-bottom: 56.23%;
-   height: 0;
-   overflow: hidden;
-   width: 100%;
-   background: #000;
-}
-.__h_video img {
-   width: 100%;
-   height: auto;
-   color: #000;
-}
-.__h_video .play {
-   height: 72px;
-   width: 72px;
-   left: 50%;
-   top: 50%;
-   margin-left: -36px;
-   margin-top: -36px;
-   position: absolute;
-   cursor: pointer;
-}
-</style>
-
-
-<div class="s_video_simple __h_video">
-<a href="https://vimeo.com/4.8912912e&#43;07" rel="noopener" target="_blank">
-
-
-<img src="https://i.vimeocdn.com/video/337401969_640" srcset="https://i.vimeocdn.com/video/337401969_640 1x, https://i.vimeocdn.com/video/337401969_640 2x" alt="Sing Jan Swing - Kinetic Type">
-<div class="play"><svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61"><circle cx="30.5" cy="30.5" r="30.5" opacity=".8" fill="#000"></circle><path d="M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z" fill="#fff"></path></svg></div></a></div>]]></content></item><item><title>Placeholder Text</title><link>https://ankithans.github.io/posts/2019/03/placeholder-text/</link><pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate><guid>https://ankithans.github.io/posts/2019/03/placeholder-text/</guid><description>&lt;p>Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p></description><content type="html"><![CDATA[<p>Lorem est tota propiore conpellat pectoribus de pectora summo.</p>
-<p>Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.</p>
-<ol>
-<li>Exierant elisi ambit vivere dedere</li>
-<li>Duce pollice</li>
-<li>Eris modo</li>
-<li>Spargitque ferrea quos palude</li>
-</ol>
-<p>Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.</p>
-<ol>
-<li>Comas hunc haec pietate fetum procerum dixit</li>
-<li>Post torum vates letum Tiresia</li>
-<li>Flumen querellas</li>
-<li>Arcanaque montibus omnes</li>
-<li>Quidem et</li>
-</ol>
-<h1 id="vagus-elidunt">Vagus elidunt</h1>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p><a href="https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon">The Van de Graaf Canon</a></p>
-<h2 id="mane-refeci-capiebant-unda-mulcebat">Mane refeci capiebant unda mulcebat</h2>
-<p>Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. <strong>Faces illo pepulere</strong> tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.</p>
-<p>Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.</p>
-<p>Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel <strong>mitis temploque</strong> vocatus, inque alis, <em>oculos nomen</em> non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides <strong>parte</strong>.</p>]]></content></item><item><title>Math Typesetting</title><link>https://ankithans.github.io/posts/2019/03/math-typesetting/</link><pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate><guid>https://ankithans.github.io/posts/2019/03/math-typesetting/</guid><description>&lt;p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p></description><content type="html"><![CDATA[<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
-<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
-<ul>
-<li>Create a partial under <code>/layouts/partials/math.html</code></li>
-<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
-<li>Include the partial in your templates (<a href="../papermod/papermod-faq/#custom-head--footer"><code>extend_head.html</code></a>) like so:</li>
-<li>refer <a href="https://github.com/adityatelange/hugo-PaperMod/issues/236">ISSUE #236</a></li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">{{</span> <span style="color:#66d9ef">if</span> or .Params.math .Site.Params.math <span style="color:#f92672">}}</span>
-<span style="color:#f92672">{{</span> partial <span style="color:#e6db74">&#34;math.html&#34;</span> . <span style="color:#f92672">}}</span>
-<span style="color:#f92672">{{</span> end <span style="color:#f92672">}}</span>
-</code></pre></div><ul>
-<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
-<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files</li>
-</ul>
-<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
-
-<h3 id="examples">Examples</h3>
-
-<p>Block math:</p>
-<p>$$
-\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$</p>]]></content></item><item><title>Emoji Support</title><link>https://ankithans.github.io/posts/2019/03/emoji-support/</link><pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><guid>https://ankithans.github.io/posts/2019/03/emoji-support/</guid><description>&lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p></description><content type="html"><![CDATA[<p>Emoji can be enabled in a Hugo project in a number of ways.</p>
-<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
-<!-- raw HTML omitted -->
-<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
-<hr>
-<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">.emoji {
-font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}</code></pre></div>]]></content></item></channel></rss>
+<h2 id="open-source-projects-vs-personal-projects">Open Source Projects vs Personal Projects</h2>
+<p>There is huge debate on this topic on internet. But according to me, <strong>open-source projects are much more worth than personal projects</strong>. While working on OSS projects, you will be exploring the unknown code written by some engineer. You will collaborate with other open-source developers. Most of the project maintainers work full time in big tech companies and working with them will be a huge plus and you will get familiar with the industrial work.</p>
+<p>All this above has been personally experienced by me in past months.</p>
+<p>Connect with me here - <a href="https://www.linkedin.com/in/ankithans/">LinkedIn</a> <a href="https://twitter.com/AnkitHans15">Twitter</a> <a href="https://github.com/ankithans">Github</a></p>
+]]></content></item></channel></rss>
