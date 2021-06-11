@@ -20,7 +20,7 @@ I started my opensource journey with [LibreHealth](https://librehealth.io/). The
 I knew [flutter](https://flutter.dev/) before hand and so I did solve some issues and improvements. As I became active member in the [LibreHealth community](https://forums.librehealth.io/) the admins gave me `new user of the month` badge, after some days they promoted my trust level on their forums and this really encouraged me to contribute more to open-source! The maintainers were quick in reviewing my merge requests and this filled me with confidence and persuaded me to apply for GSoC this year.
 
 ## How the Journey started with JBoss
-![gsoc-with-jboss](https://cdn.discordapp.com/attachments/852928325197234256/852945224166801428/Group_1_2.png)
+![gsoc-with-jboss](https://cdn.discordapp.com/attachments/813051031645847597/852977521049206795/Group_2.png)
 
 After a great kickstart in the journey of opensource, I found a project [graphql-link](https://github.com/aerogear/graphql-link) in **Aerogear(JBoss)**. I knew that it was a Golang project overall(PS: I didn't knew how to print hello world in golang), but there were some beginner friendly issues in the repository, like website for documentation([docusaurus](https://docusaurus.io/)), example servers etc.
 
