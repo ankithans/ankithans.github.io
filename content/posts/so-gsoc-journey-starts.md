@@ -6,8 +6,8 @@ description: "Google Summer of Code 2021 starts with JBoss(Red Hat)"
 tags: ["gsoc", "opensource"]
 categories: ["GSoC'21 @JBoss"]
 ShowToc: true
-image: "https://cdn.discordapp.com/attachments/852928325197234256/852945224166801428/Group_1_2.png" 
-thumbnail: "https://cdn.discordapp.com/attachments/852928325197234256/852945224166801428/Group_1_2.png" 
+image: "./gsoc-jboss.png" 
+thumbnail: "./gsoc-jboss.png" 
 ---
 
 ## Get started with open-source
