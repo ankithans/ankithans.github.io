@@ -4,7 +4,7 @@ title: "GSoC'21 journey begins"
 date: "2021-06-10"
 description: "Google Summer of Code 2021 starts with JBoss(Red Hat)"
 tags: ["gsoc", "opensource"]
-categories: ["GSoC'21 @JBoss"]
+series: ["Google Summer of Code 2021"]
 ShowToc: true
 image: "./gsoc-jboss.png" 
 thumbnail: "./gsoc-jboss.png" 

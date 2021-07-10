@@ -190,9 +190,9 @@ disableHugoGeneratorInject = false
     url        = "tags/"
     weight = 5
   [[menu.main]]
-    identifier = "categories"
-    name       = "Categories"
-    url        = "categories/"
+    identifier = "series"
+    name       = "Series"
+    url        = "series/"
     weight = 4
   [[main.menu]]
     identifier = "work"
@@ -207,4 +207,4 @@ disableHugoGeneratorInject = false
     identifier = "projects"
     name       = "Projects"
     url        = "projects/"
-    weight = 2
+    weight = 6
