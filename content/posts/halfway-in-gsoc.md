@@ -27,7 +27,7 @@ I have talked about Charmil ie. my GSoC project, in my previous blog, but this f
 
 > So **Charmil is a Framework for building command line plugins on the top of Cobra golang library**. 
 
-Cobra is standard and very famous in the CLI industry and is being used in many industry projects such as kubernates, rhoas, gh-cli, etc. To make the development process easier we introduced Charmil. 
+Cobra is standard and very famous in the CLI industry and is being used in many industry projects such as Kubernetes, rhoas, gh-cli, etc. To make the development process easier we introduced Charmil. 
 
 Charmil solves many problems/issues faced by developers during development of CLI's. The major feature that Charmil brings on the table is the **ability to develop multiple fragmented CLI's, maintained/working in separate repositories, and later embed/combine them in a single Host CLI**.
 
@@ -82,7 +82,7 @@ Skipping commands for validation is very easy. To skip a single command just pro
 ```go
 ValidatorOptions: rules.ValidatorOptions{
 	SkipCommands: map[string]bool{"mycli actions*": true},
-},
+}
 ```
 
 Hence validator is very customizable and easy to use for developer productivity!
