@@ -12,7 +12,7 @@ It has been almost 2 months since I got into the program, but it feels like tomo
 <blockquote>
 <p>So <strong>Charmil is a Framework for building command line plugins on the top of Cobra golang library</strong>.</p>
 </blockquote>
-<p>Cobra is standard and very famous in the CLI industry and is being used in many industry projects such as kubernates, rhoas, gh-cli, etc. To make the development process easier we introduced Charmil.</p>
+<p>Cobra is standard and very famous in the CLI industry and is being used in many industry projects such as Kubernetes, rhoas, gh-cli, etc. To make the development process easier we introduced Charmil.</p>
 <p>Charmil solves many problems/issues faced by developers during development of CLI&rsquo;s. The major feature that Charmil brings on the table is the <strong>ability to develop multiple fragmented CLI&rsquo;s, maintained/working in separate repositories, and later embed/combine them in a single Host CLI</strong>.</p>
 <h2 id="charmil-components-in-brief">Charmil Components in brief</h2>
 <p><img src="https://cdn.discordapp.com/attachments/852928325197234256/866662699315757076/charmil_pillar.png" alt="charmil components"></p>
@@ -53,7 +53,7 @@ It has been almost 2 months since I got into the program, but it feels like tomo
 </code></pre></div><p>Skipping commands for validation is very easy. To skip a single command just provide the CommandPath and to skip the entire chain of commands(including subcommands/children) use a asterik sign immediately after CommandPath</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">ValidatorOptions</span>: <span style="color:#a6e22e">rules</span>.<span style="color:#a6e22e">ValidatorOptions</span>{
 	<span style="color:#a6e22e">SkipCommands</span>: <span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">string</span>]<span style="color:#66d9ef">bool</span>{<span style="color:#e6db74">&#34;mycli actions*&#34;</span>: <span style="color:#66d9ef">true</span>},
-},
+}
 </code></pre></div><p>Hence validator is very customizable and easy to use for developer productivity!
 For detailed documentation of charmil validator, visit <a href="https://github.com/aerogear/charmil/blob/main/docs/src/validator.md">Charmil Validator Docs</a></p>
 <p>Here is a small diagram to show how is validator working under the hood.</p>
